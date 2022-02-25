@@ -35,21 +35,23 @@ public class XPsystem : MonoBehaviour
         //This is called by button presses, should grant diff amount of exp
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            GainXP (speed)
+            GainXP(speed);
         }
     }
 
     public void GainXP(float gain)
     {
         //gain exp, probably something to do with our curEXP
-        curEXP += gain
-        Debug.Log("EXP Gained : " + gain)
-        Debug.Log("Current EXP Gained : " + curEXP)
+        curEXP += gain;
+        Debug.Log("EXP Gained : " + gain);
+        Debug.Log("Current EXP Gained : " + curEXP);
     }
 
     public void Levelup()
     {
         //increase our level
+        
+        
     }
 
     public void IncreaseStats()
